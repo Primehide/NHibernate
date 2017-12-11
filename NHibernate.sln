@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.DAL", "NHibernate\NHibernate.DAL.csproj", "{F7DE37AC-617D-4CBE-A265-A997AB34E652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Domain", "NHibernate.Domain\NHibernate.Domain.csproj", "{E5422463-4B23-494D-8F71-EEB28BFE5498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.BL", "NHibernate.BL\NHibernate.BL.csproj", "{9E014565-3C8D-47B1-A9D1-83D1F8F625D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.UI", "NHibernate.UI\NHibernate.UI.csproj", "{CDF3C661-4421-488D-BE0C-EBBC64E63790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DE37AC-617D-4CBE-A265-A997AB34E652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DE37AC-617D-4CBE-A265-A997AB34E652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DE37AC-617D-4CBE-A265-A997AB34E652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DE37AC-617D-4CBE-A265-A997AB34E652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5422463-4B23-494D-8F71-EEB28BFE5498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5422463-4B23-494D-8F71-EEB28BFE5498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5422463-4B23-494D-8F71-EEB28BFE5498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5422463-4B23-494D-8F71-EEB28BFE5498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E014565-3C8D-47B1-A9D1-83D1F8F625D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E014565-3C8D-47B1-A9D1-83D1F8F625D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E014565-3C8D-47B1-A9D1-83D1F8F625D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E014565-3C8D-47B1-A9D1-83D1F8F625D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF3C661-4421-488D-BE0C-EBBC64E63790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF3C661-4421-488D-BE0C-EBBC64E63790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF3C661-4421-488D-BE0C-EBBC64E63790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF3C661-4421-488D-BE0C-EBBC64E63790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

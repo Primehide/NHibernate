@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NHibernate.Domain"
+                   namespace="NHibernate.Domain">
+
+  <class name="LoLAccount">
+    <id name="Id">
+      <generator class="increment" />
+    </id>
+    <property name="SummonerName" />
+    <property name="AantalOfRp" />
+    <property name="AantalOfIp" />
+    <property name="HuidigeRang" />
+  </class>
+  
+  <class name="Summoner">
+    <id name="Id">
+      <generator class="increment" />
+    </id>
+    <property name="Voornaam" />
+    <property name="Achternaam" />
+    <property name="Leeftijd" />
+  </class>
+
+</hibernate-mapping>
